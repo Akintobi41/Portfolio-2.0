@@ -1,11 +1,11 @@
 import "./App.css";
 import Layout from "./components/layout/Layout";
-import Home from "./pages/Home/Home";
+import Home from "./pages/home/Home";
 import Footer from "./components/footer/Footer";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
 import Resume from "./pages/resume/Resume";
-import Error from "./pages/error/error";
+import Error from "./pages/error/Error";
 import { Worker } from "@react-pdf-viewer/core";
 import {
   BrowserRouter as Router,
