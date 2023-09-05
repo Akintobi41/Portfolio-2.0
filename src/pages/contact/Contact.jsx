@@ -31,7 +31,6 @@ const Contact = () => {
           method="POST"
           data-netlify={true}
           className={s.form}
-          id=""
         >
           {formList.map((input) => (
             <label className={s.label} key={input.type}>
