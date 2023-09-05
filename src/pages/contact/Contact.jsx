@@ -36,7 +36,7 @@ const Contact = () => {
           <input
             type="hidden"
             name="form-name"
-            value="the-name-of-the-html-form"
+            value="contact"
           />
 
           {formList.map((input) => (
