@@ -1,0 +1,7 @@
+.footer p {
+    color: var(--pry-col);
+    padding-bottom: .5rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}

@@ -1,0 +1,19 @@
+:root {
+  --pry-col: #262e2f;
+  --sec-col: #141e61;
+  --bg-col: #eeeeee;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+}

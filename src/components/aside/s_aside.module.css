@@ -1,0 +1,35 @@
+.socials {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.socials img {
+    width: 2rem;
+    height: 2rem;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(51, 87, 134));
+}
+
+.logo-1,
+.logo-2,
+.logo-3,
+.logo-4 {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: opacity(1) drop-shadow(0 0 0 rgb(104, 160, 235));
+}
+
+.logo-1:hover,
+.logo-2:hover,
+.logo-3:hover,
+.logo-4:hover {
+    filter: opacity(0.6) drop-shadow(0 0 0 rgb(104, 160, 235));
+}
