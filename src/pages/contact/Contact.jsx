@@ -30,8 +30,15 @@ const Contact = () => {
           name="contact"
           method="POST"
           data-netlify={true}
+          hidden
           className={s.form}
         >
+          <input
+            type="hidden"
+            name="form-name"
+            value="the-name-of-the-html-form"
+          />
+
           {formList.map((input) => (
             <label className={s.label} key={input.type}>
               {input.name} <br />
