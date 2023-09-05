@@ -33,11 +33,6 @@ const Contact = () => {
           className={s.form}
           id=""
         >
-          <input
-            type="hidden"
-            name="form-name"
-            value="contact"
-          />
           {formList.map((input) => (
             <label className={s.label} key={input.type}>
               {input.name} <br />
