@@ -5,7 +5,7 @@ const Contact = () => {
   const formList = [
     {
       name: "Full Name",
-      type: "text",
+      type: "name",
       class: `${s.input}`,
     },
     {
@@ -28,8 +28,8 @@ const Contact = () => {
 
         <form
           name="contact"
-          method="POST/contact"
-          data-netlify={true}
+          method="POST"
+          data-netlify="true"
           className={s.form}
         >
           <input
@@ -46,6 +46,7 @@ const Contact = () => {
                   name="message"
                   placeholder={input.placeholder}
                   className={input.class}
+                  required
                 ></textarea>
               ) : (
                 <input
