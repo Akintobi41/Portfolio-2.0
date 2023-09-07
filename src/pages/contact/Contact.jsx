@@ -32,7 +32,7 @@ const Contact = () => {
           data-netlify="true"
           className={s.form}
           autoComplete="true"
-          action="/index.html"
+          action="/redirects"
         >
           <input
             type="hidden"
