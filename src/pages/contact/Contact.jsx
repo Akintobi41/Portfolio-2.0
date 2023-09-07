@@ -31,7 +31,6 @@ const Contact = () => {
           method="POST"
           data-netlify="true"
           className={s.form}
-          // action="/contact"
         >
           <input
             type="hidden"
