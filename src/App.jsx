@@ -6,6 +6,7 @@ import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
 import Resume from "./pages/resume/Resume";
 import Error from "./pages/error/Error";
+import ThankYou from "./pages/thankyou/ThankYou";
 import { Worker } from "@react-pdf-viewer/core";
 import {
   BrowserRouter as Router,
@@ -26,6 +27,10 @@ function App() {
             />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
+            <Route
+              path="/index.html"
+              element={<ThankYou />}
+            />
             <Route path="*" element={<Error />} />
           </Routes>
           <Footer />
