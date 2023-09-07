@@ -31,7 +31,7 @@ const Contact = () => {
           method="POST"
           data-netlify="true"
           className={s.form}
-          autoComplete="true"
+          // action="/contact"
         >
           <input
             type="hidden"
