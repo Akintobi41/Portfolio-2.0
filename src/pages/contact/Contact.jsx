@@ -43,12 +43,13 @@ const Contact = () => {
               {input.name} <br />
               {input.name === "Message" ? (
                 <textarea
-                  name="contact"
+                  name="message"
                   placeholder={input.placeholder}
                   className={input.class}
                 ></textarea>
               ) : (
                 <input
+                  name={input.type}
                   type={input.type}
                   className={input.class}
                   required
