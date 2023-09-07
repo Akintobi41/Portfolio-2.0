@@ -30,7 +30,6 @@ const Contact = () => {
           name="contact"
           method="POST"
           data-netlify={true}
-          hidden
           className={s.form}
         >
           <input
