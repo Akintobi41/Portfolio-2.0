@@ -11,7 +11,7 @@ const Resume = () => {
           margin: "2rem 0",
         }}
       >
-        <Viewer fileUrl="/src/Akintobi-MoyinoluwaRESUME.pdf" />
+        <Viewer fileUrl="/Akintobi-MoyinoluwaRESUME.pdf" />
       </div>
     </Worker>
   );
