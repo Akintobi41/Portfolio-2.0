@@ -25,7 +25,7 @@ const Projects = () => {
         setData(items);
       } catch (e) {
         setLoading(false);
-        console.log("Failed to fetch");
+        console.error("Failed to fetch");
       }
     })();
   }, []);

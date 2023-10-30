@@ -31,7 +31,7 @@ const Aside = () => {
       {socials.map((social) => (
         <figure className={social.class} key={social.class}>
           <a href={social.link}>
-            <img src={social.logo} alt={social.alt} />
+            <img src={social.logo} alt={social.alt} loading="lazy" />
           </a>
         </figure>
       ))}
