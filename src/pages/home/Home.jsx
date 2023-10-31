@@ -11,7 +11,6 @@ const Home = () => {
           src="images/undraw_coding_re_iv62.svg"
           alt="Description"
           className={s.avatar_img}
-          loading="lazy"
         />
       </div>
       <section className={s.about}>
