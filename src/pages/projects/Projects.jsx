@@ -20,7 +20,9 @@ const Projects = () => {
     setLoading(true);
     (async () => {
       try {
-        const { items } = await fetchContentfulData();
+        const { items } = await fetchContentfulData(
+          "project"
+        );
         if (items) setLoading(false);
         setData(items);
       } catch (e) {
@@ -60,6 +62,7 @@ const Projects = () => {
   const setBg = (url) => ({
     backgroundImage: `url(${url})`,
   });
+  console.log(data);
 
   return (
     <section className={s["main-section"]}>

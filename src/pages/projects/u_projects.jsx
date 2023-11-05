@@ -9,11 +9,11 @@ const client = createClient({
   accessToken: apiKey,
 });
 
-export async function fetchContentfulData() {
+export async function fetchContentfulData(type) {
   ++numTimes;
   try {
     const res = await client.getEntries({
-      content_type: "project",
+      content_type: type,
     });
     if (!res) throw Error();
     return res;

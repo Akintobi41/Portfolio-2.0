@@ -1,3 +1,13 @@
+.footer {
+    /* position:  */
+    /* bottom: 0; */
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: c;
+    width: 100%
+}
+
 .footer p {
     color: var(--pry-col);
     padding-bottom: .5rem;
