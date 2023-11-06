@@ -62,7 +62,6 @@ const Projects = () => {
   const setBg = (url) => ({
     backgroundImage: `url(${url})`,
   });
-  console.log(data);
 
   return (
     <section className={s["main-section"]}>
