@@ -1,6 +1,7 @@
 import s from "./s_home.module.css";
 import Aside from "../../components/aside/Aside";
 import { description, about } from "./u_home";
+
 const Home = () => {
   return (
     <section className={s.main_section}>

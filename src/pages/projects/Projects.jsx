@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import s from "./s_project.module.css";
 import { fetchContentfulData } from "./u_projects";
-import React from "react";
-import usePagination from "./usePagination";
+import usePagination from "../../hooks/usePagination";
 
 const Projects = () => {
   const [data, setData] = useState([]);
@@ -46,7 +45,7 @@ const Projects = () => {
     {
       id: 3,
       class: `${s.button} ${
-        exactPage < totalPages ? s["previous-button"] : ""
+        exactPage > 1 ? "" : s["previous-button"]
       }`,
       label: "<",
     },
